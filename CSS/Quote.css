@@ -1,0 +1,109 @@
+/* 
+Color Palete:
+Pink: #F9827D;
+Almost white: #f3f3f8;
+Black: #000000; 
+Ash: #696766;
+*/
+
+
+/* --------General--------- */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: #f3f3f8;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 8px;
+    border-radius: 10px;
+    height: 55vh;
+    width: 40%;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 50px;
+    column-gap: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+
+
+/* ------Aside(hits et Quotes)------------- */
+
+aside {
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 0.9em;
+    margin-bottom: 0px;
+}
+
+.Colored_details {
+    margin-top: 0.65vh;
+}
+
+
+/* ---------------Main-Image---------------------- */
+
+.Image-wrapper img {
+    height: 228px;
+    width: 254px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+article {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+/* ----------------Subject details et Lovie-------- */
+
+.Subject-detail {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: -50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Subject-detail span {
+    display: inline-block;
+}
+
+#Love-icon {
+    width: 29px;
+    height: 29px;
+}
+
+.Colored_details,
+#color-text {
+    color: #696766;
+}
+
+
+/* ---------Navigation------------- */
+
+nav {
+    background-color: #F9827D;
+    margin: auto;
+    height: 35px;
+    width: 70px;
+    border-radius: 35px;
+    margin-top: -15px;
+}
