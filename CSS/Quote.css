@@ -20,12 +20,12 @@ main {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    border-style: solid;
+    /* border-style: solid;
     border-color: #000000;
-    border-width: 8px;
+    border-width: 8px; */
     border-radius: 10px;
-    height: 45vh;
-    width: 35%;
+    height: 350px;
+    width: 500px;
     margin: auto;
     margin-top: 10vh;
     padding: 50px;
